@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="category_activies">#a2dcaa</color>
+
+    <color name="category_museums">#f8db7b</color>
+
+    <color name="category_restaurants">#f39c9e</color>
+
+    <color name="category_sights">#98c9ff</color>
+</resources>
