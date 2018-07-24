@@ -1,6 +1,9 @@
 package com.example.android.berlintourguide;
 
-public class Place {
+import android.os.Parcel;
+import android.os.Parcelable;
+
+public class Place implements Parcelable {
 
     private int mPlaceName;
 
@@ -13,23 +16,6 @@ public class Place {
     private int mPlaceAddress;
 
     private int mPlaceWebSite;
-
-    public Place(int placeName, int explanationText, int imageResourceId, int placeTelephoneNumber, int placeAddress, int placeWebSite){
-        mPlaceName = placeName;
-        mExplanationText = explanationText;
-        mImageResourceId = imageResourceId;
-        mPlaceTelephoneNumber = placeTelephoneNumber;
-        mPlaceAddress = placeAddress;
-        mPlaceWebSite = placeWebSite;
-    }
-
-    public Place(int placeName, int explanationText, int imageResourceId, int placeAddress, int placeWebSite){
-        mPlaceName = placeName;
-        mExplanationText = explanationText;
-        mImageResourceId = imageResourceId;
-        mPlaceAddress = placeAddress;
-        mPlaceWebSite = placeWebSite;
-    }
 
     public Place(int placeName, int explanationText, int imageResourceId, int placeAddress){
         mPlaceName = placeName;
@@ -61,4 +47,41 @@ public class Place {
     public int getPlaceWebSite (){
         return mPlaceWebSite;
     }
+
+    protected Place(Parcel in) {
+        mPlaceName = in.readInt();
+        mExplanationText = in.readInt();
+        mImageResourceId = in.readInt();
+        //mPlaceTelephoneNumber = in.readInt();
+        mPlaceAddress = in.readInt();
+        //mPlaceWebSite = in.readInt();
+    }
+
+    @Override
+    public int describeContents() {
+        return 0;
+    }
+
+    @Override
+    public void writeToParcel(Parcel dest, int flags) {
+        dest.writeInt(mPlaceName);
+        dest.writeInt(mExplanationText);
+        dest.writeInt(mImageResourceId);
+        //dest.writeInt(mPlaceTelephoneNumber);
+        dest.writeInt(mPlaceAddress);
+        //dest.writeInt(mPlaceWebSite);
+    }
+
+    public static final Parcelable.Creator<Place> CREATOR = new Parcelable.Creator<Place>() {
+        @Override
+        public Place createFromParcel(Parcel in) {
+            return new Place(in);
+        }
+
+        @Override
+        public Place[] newArray(int size) {
+            return new Place[size];
+        }
+    };
 }
+

@@ -30,25 +30,25 @@ public class SightsFragment extends Fragment {
 
         final ArrayList<Place> places = new ArrayList<Place>();
         places.add(new Place(R.string.sights_name_alexanderplatz, R.string.sights_name_alexanderplatz_explanation,
-                R.drawable.alexanderplatz, mPlaceTelephoneNumber, mPlaceAddress, mPlaceWebSite));
+                R.drawable.alexanderplatz, R.string.sights_name_alexanderplatz_address   ));
         places.add(new Place(R.string.sights_name_potsdamer_platz, R.string.sights_name_potsdamer_platz_explanation,
-                R.drawable.potsdamerplatz, mPlaceTelephoneNumber, mPlaceAddress, mPlaceWebSite));
+                R.drawable.potsdamerplatz, R.string.sights_name_potsdamer_platz_address  ));
         places.add(new Place(R.string.sights_name_victoriapark, R.string.sights_name_victoriapark_explanation,
-                R.drawable.victoriapark, mPlaceTelephoneNumber, mPlaceAddress, mPlaceWebSite));
+                R.drawable.victoriapark, R.string.sights_name_victoriapark_address  ));
         places.add(new Place(R.string.sights_name_brandenburg_gate, R.string.sights_name_brandenburg_gate_explanation,
-                R.drawable.brandenburggate, mPlaceTelephoneNumber, mPlaceAddress, mPlaceWebSite));
+                R.drawable.brandenburggate, R.string.sights_name_brandenburg_gate_address ));
         places.add(new Place(R.string.sights_name_east_side_gallery, R.string.sights_name_east_side_gallery_explanation,
-                R.drawable.eastsidegallery, mPlaceTelephoneNumber, mPlaceAddress, mPlaceWebSite));
+                R.drawable.eastsidegallery, R.string.sights_name_east_side_gallery_address   ));
         places.add(new Place(R.string.sights_name_hauptbahnhof, R.string.sights_name_hauptbahnhof_explanation,
-                R.drawable.hauptbahnhof, mPlaceTelephoneNumber, mPlaceAddress, mPlaceWebSite));
+                R.drawable.hauptbahnhof, R.string.sights_name_hauptbahnhof_address  ));
         places.add(new Place(R.string.sights_name_gendarmenmarkt, R.string.sights_name_gendarmenmarkt_explanation,
-                R.drawable.gendarmenmarkt, mPlaceTelephoneNumber, mPlaceAddress, mPlaceWebSite));
+                R.drawable.gendarmenmarkt, R.string.sights_name_gendarmenmarkt_address  ));
         places.add(new Place(R.string.sights_name_botanischer_garten, R.string.sights_name_botanischer_garten_explanation,
-                R.drawable.botanischergarten, mPlaceTelephoneNumber, mPlaceAddress, mPlaceWebSite));
+                R.drawable.botanischergarten, R.string.sights_name_botanischer_garten_address   ));
         places.add(new Place(R.string.sights_name_olympiastadion, R.string.sights_name_olympiastadion_explanation,
-                R.drawable.olympiastadion, mPlaceTelephoneNumber, mPlaceAddress, mPlaceWebSite));
+                R.drawable.olympiastadion, R.string.sights_name_olympiastadion_address   ));
         places.add(new Place(R.string.sights_name_tiergarten, R.string.sights_name_tiergarten_explanation,
-                R.drawable.tiergarten, mPlaceTelephoneNumber, mPlaceAddress, mPlaceWebSite));
+                R.drawable.tiergarten, R.string.sights_name_tiergarten_address  ));
 
         PlaceAdapter adapter = new PlaceAdapter(getActivity(), places, R.color.category_sights);
 
@@ -62,9 +62,8 @@ public class SightsFragment extends Fragment {
 
                 Place place = places.get(position);
 
-                //TODO INTENT DETAIL ACTIVITY
                 Intent intent = new Intent(getContext(), DetailActivity.class);
-                //intent.putExtra(getResources().getString(R.string.parcel_movie), mCurrentMovie);
+                intent.putExtra("place", place);
 
                 startActivity(intent);
             }

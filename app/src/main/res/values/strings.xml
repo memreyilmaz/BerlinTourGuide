@@ -1,173 +1,144 @@
 <resources>
     <string name="app_name">Berlin Tour Guide</string>
-    <!-- Category name for museums -->
+
     <string name="category_museums">Museums and Historical Places</string>
-    <!-- Place name for Museums Category -->
+
     <string name="museum_name_stasi_museum">Stasi Museum</string>
-    <!-- Place name for Museums Category -->
     <string name="museum_name_ddr_museum">DDR Museum</string>
-    <!-- Place name for Museums Category -->
     <string name="museum_name_museum_island">Museum Island</string>
-    <!-- Place name for Museums Category -->
     <string name="museum_name_sans_souci_palace">Sans Souci Palace</string>
-    <!-- Place name for Museums Category -->
     <string name="museum_name_holocaust_memorandum">Memorial to the Murdered Jews of Europe</string>
-    <!-- Place name for Museums Category -->
     <string name="museum_name_topography_of_terrors">Topography Of Terrors</string>
-    <!-- Place name for Museums Category -->
     <string name="museum_name_berlin_wall">Berlin Wall</string>
-    <!-- Place name for Museums Category -->
     <string name="museum_name_reichstag">Reichstag</string>
-    <!-- Place name for Museums Category -->
     <string name="museum_name_marx_engels_forum">Marx - Engels Forum</string>
-    <!-- Place name for Museums Category -->
     <string name="museum_name_checkpoint_charlie">Checkpoint Charlie</string>
-    <!-- Category name for the Restaurants -->
+
     <string name="category_restaurants">Restaurants</string>
-    <!-- Place name for Restaurants Category -->
+
     <string name="restaurants_name_curry_36">Curry 36</string>
-    <!-- Place name for Restaurants Category -->
     <string name="restaurants_name_mustafas_gemuse_kebap">Mustafa\'s Gemuse Kebap</string>
-    <!-- Place name for Restaurants Category -->
     <string name="restaurants_name_burger_meister">Burger Meister</string>
-    <!-- Place name for Restaurants Category -->
     <string name="restaurants_name_vapiano">Vapiano</string>
-    <!-- Place name for Restaurants Category -->
     <string name="restaurants_name_zola">Zola</string>
-    <!-- Place name for Restaurants Category -->
     <string name="restaurants_name_hasir">Hasir</string>
-    <!-- Place name for Restaurants Category -->
     <string name="restaurants_name_lindner">Lindner</string>
-    <!-- Place name for Restaurants Category -->
     <string name="restaurants_name_block_house">Block House</string>
-    <!-- Place name for Restaurants Category -->
     <string name="restaurants_name_hokey_pokey">Hokey Pokey</string>
-    <!-- Place name for Restaurants Category -->
     <string name="restaurants_name_oysterbar_kadewe">Oysterbar KaDeWe</string>
-    <!-- Category name for the Sights and Attractions -->
+
     <string name="category_sights">Sights and Attractions</string>
-    <!-- Place name for Sights Category -->
+
     <string name="sights_name_alexanderplatz">Alexanderplatz</string>
-    <!-- Place name for Sights Category -->
     <string name="sights_name_potsdamer_platz">Potsdamer Platz</string>
-    <!-- Place name for Sights Category -->
-    <string name="sights_name_victoriapark">VictoriaPark</string>
-    <!-- Place name for Sights Category -->
+    <string name="sights_name_victoriapark">Victoria Park</string>
     <string name="sights_name_brandenburg_gate">Brandenburg Gate</string>
-    <!-- Place name for Sights Category -->
     <string name="sights_name_east_side_gallery">East Side Gallery</string>
-    <!-- Place name for Sights Category -->
     <string name="sights_name_hauptbahnhof">Hauptbahnhof</string>
-    <!-- Place name for Sights Category -->
     <string name="sights_name_gendarmenmarkt">Gendarmenmarkt</string>
-    <!-- Place name for Sights Category -->
     <string name="sights_name_botanischer_garten">Botanical Garden</string>
-    <!-- Place name for Sights Category -->
     <string name="sights_name_olympiastadion">Olympiastadion</string>
-    <!-- Place name for Sights Category -->
     <string name="sights_name_tiergarten">Tiergarten</string>
-    <!-- Category name for the Activities and Shopping -->
+
     <string name="category_activities">Activities and Shopping</string>
-    <!-- Place name for Activities Category -->
+
     <string name="activities_name_kadewe">KaDeWe</string>
-    <!-- Place name for Activities Category -->
     <string name="activities_name_ampelmann_shop">Ampelmann Shop</string>
-    <!-- Place name for Activities Category -->
     <string name="activities_name_classic_remise">Classic Remise</string>
-    <!-- Place name for Activities Category -->
     <string name="activities_name_markthalle_neun">Markthalle Neun</string>
-    <!-- Place name for Activities Category -->
     <string name="activities_name_berlin_philharmonic">Berlin Philharmonic</string>
-    <!-- Place name for Activities Category -->
     <string name="activities_name_tierpark">Tierpark</string>
-    <!-- Place name for Activities Category -->
     <string name="activities_name_mall_of_berlin">Mall Of Berlin</string>
-    <!-- Place name for Activities Category -->
     <string name="activities_name_sony_center">Sony Center</string>
-    <!-- Place name for Activities Category -->
     <string name="activities_name_aquadom_and_sealife">Aquadom &amp; SeaLife</string>
-    <!-- Place name for Activities Category -->
     <string name="activities_name_trabi_tour">Trabi Tour</string>
 
 
-    <!-- Place name for Museums Category -->
     <string name="museum_name_stasi_museum_explanation">Stasi Museum</string>
-    <!-- Place name for Museums Category -->
     <string name="museum_name_ddr_museum_explanation">DDR Museum</string>
-    <!-- Place name for Museums Category -->
     <string name="museum_name_museum_island_explanation">Museum Island</string>
-    <!-- Place name for Museums Category -->
     <string name="museum_name_sans_souci_palace_explanation">Sans Souci Palace</string>
-    <!-- Place name for Museums Category -->
     <string name="museum_name_holocaust_memorandum_explanation">Memorial to the Murdered Jews of Europe</string>
-    <!-- Place name for Museums Category -->
     <string name="museum_name_topography_of_terrors_explanation">Topography Of Terrors</string>
-    <!-- Place name for Museums Category -->
     <string name="museum_name_berlin_wall_explanation">Berlin Wall</string>
-    <!-- Place name for Museums Category -->
     <string name="museum_name_reichstag_explanation">Reichstag</string>
-    <!-- Place name for Museums Category -->
     <string name="museum_name_marx_engels_forum_explanation">Marx - Engels Forum</string>
-    <!-- Place name for Museums Category -->
     <string name="museum_name_checkpoint_charlie_explanation">Checkpoint Charlie</string>
-    <!-- Place name for Restaurants Category -->
+
     <string name="restaurants_name_curry_36_explanation">Curry 36</string>
-    <!-- Place name for Restaurants Category -->
     <string name="restaurants_name_mustafas_gemuse_kebap_explanation">Mustafa\'s Gemuse Kebap</string>
-    <!-- Place name for Restaurants Category -->
     <string name="restaurants_name_burger_meister_explanation">Burger Meister</string>
-    <!-- Place name for Restaurants Category -->
     <string name="restaurants_name_vapiano_explanation">Vapiano</string>
-    <!-- Place name for Restaurants Category -->
     <string name="restaurants_name_zola_explanation">Zola</string>
-    <!-- Place name for Restaurants Category -->
     <string name="restaurants_name_hasir_explanation">Hasir</string>
-    <!-- Place name for Restaurants Category -->
     <string name="restaurants_name_lindner_explanation">Lindner</string>
-    <!-- Place name for Restaurants Category -->
     <string name="restaurants_name_block_house_explanation">Block House</string>
-    <!-- Place name for Restaurants Category -->
     <string name="restaurants_name_hokey_pokey_explanation">Hokey Pokey</string>
-    <!-- Place name for Restaurants Category -->
     <string name="restaurants_name_oysterbar_kadewe_explanation">Oysterbar KaDeWe</string>
-    <!-- Place name for Sights Category -->
+
     <string name="sights_name_alexanderplatz_explanation">Alexanderplatz</string>
-    <!-- Place name for Sights Category -->
     <string name="sights_name_potsdamer_platz_explanation">Potsdamer Platz</string>
-    <!-- Place name for Sights Category -->
-    <string name="sights_name_victoriapark_explanation">VictoriaPark</string>
-    <!-- Place name for Sights Category -->
+    <string name="sights_name_victoriapark_explanation">Victoria Park</string>
     <string name="sights_name_brandenburg_gate_explanation">Brandenburg Gate</string>
-    <!-- Place name for Sights Category -->
     <string name="sights_name_east_side_gallery_explanation">East Side Gallery</string>
-    <!-- Place name for Sights Category -->
     <string name="sights_name_hauptbahnhof_explanation">Hauptbahnhof</string>
-    <!-- Place name for Sights Category -->
     <string name="sights_name_gendarmenmarkt_explanation">Gendarmenmarkt</string>
-    <!-- Place name for Sights Category -->
     <string name="sights_name_botanischer_garten_explanation">Botanical Garden</string>
-    <!-- Place name for Sights Category -->
     <string name="sights_name_olympiastadion_explanation">Olympiastadion</string>
-    <!-- Place name for Sights Category -->
     <string name="sights_name_tiergarten_explanation">Tiergarten</string>
-    <!-- Place name for Activities Category -->
+
     <string name="activities_name_kadewe_explanation">KaDeWe</string>
-    <!-- Place name for Activities Category -->
     <string name="activities_name_ampelmann_shop_explanation">Ampelmann Shop</string>
-    <!-- Place name for Activities Category -->
     <string name="activities_name_classic_remise_explanation">Classic Remise</string>
-    <!-- Place name for Activities Category -->
     <string name="activities_name_markthalle_neun_explanation">Markthalle Neun</string>
-    <!-- Place name for Activities Category -->
     <string name="activities_name_berlin_philharmonic_explanation">Berlin Philharmonic</string>
-    <!-- Place name for Activities Category -->
     <string name="activities_name_tierpark_explanation">Tierpark</string>
-    <!-- Place name for Activities Category -->
     <string name="activities_name_mall_of_berlin_explanation">Mall Of Berlin</string>
-    <!-- Place name for Activities Category -->
     <string name="activities_name_sony_center_explanation">Sony Center</string>
-    <!-- Place name for Activities Category -->
     <string name="activities_name_aquadom_and_sealife_explanation">Aquadom &amp; SeaLife</string>
-    <!-- Place name for Activities Category -->
     <string name="activities_name_trabi_tour_explanation">Trabi Tour</string>
+
+    <string name="museum_name_stasi_museum_address">Haus 1, Ruschestraße 103, 10365 Berlin</string>
+    <string name="museum_name_ddr_museum_address">Karl-Liebknecht-Str. 1, 10178 Berlin</string>
+    <string name="museum_name_museum_island_addresss">Museumsinsel Berlin</string>
+    <string name="museum_name_sans_souci_palace_address">Maulbeerallee, 14469 Potsdam</string>
+    <string name="museum_name_holocaust_memorandum_address">Cora-Berliner-Straße 1, 10117 Berlin</string>
+    <string name="museum_name_topography_of_terrors_address">Niederkirchnerstraße 8, 10963 Berlin</string>
+    <string name="museum_name_berlin_wall_address">Bernauer Strasse 111, 13355 Berlin</string>
+    <string name="museum_name_reichstag_address">Platz der Republik 1, 11011 Berlin</string>
+    <string name="museum_name_marx_engels_forum_address">Karl-Liebknecht-Str., 10178 Berlin</string>
+    <string name="museum_name_checkpoint_charlie_address">Friedrichstraße 43-45, 10117 Berlin</string>
+
+    <string name="restaurants_name_curry_36_address">Mehringdamm 36, 10961 Berlin</string>
+    <string name="restaurants_name_mustafas_gemuse_kebap_address">32 Mehringdamm, 10961 Berlin</string>
+    <string name="restaurants_name_burger_meister_address">U1 Schlesisches Tor, Oberbaumstraße 8, 10997 Berlin</string>
+    <string name="restaurants_name_vapiano_address">Rathausstraße 6, 10178 Berlin</string>
+    <string name="restaurants_name_zola_address">Paul-Lincke-Ufer 39-40, 10999 Berlin</string>
+    <string name="restaurants_name_hasir_address">Nürnberger Str. 46, 10789 Berlin</string>
+    <string name="restaurants_name_lindner_address">Rosenthaler Str. 33, 10178 Berlin</string>
+    <string name="restaurants_name_block_house_address">Friedrichstraße 100, 10117 Berlin</string>
+    <string name="restaurants_name_hokey_pokey_address">Stargarder Str. 72, 10437 Berlin</string>
+    <string name="restaurants_name_oysterbar_kadewe_address">Tauentzienstraße 21-24, 10789 Berlin</string>
+
+    <string name="sights_name_alexanderplatz_address">10178 Berlin</string>
+    <string name="sights_name_potsdamer_platz_address">Potsdamer Platz Berlin</string>
+    <string name="sights_name_victoriapark_address">10965 Berlin</string>
+    <string name="sights_name_brandenburg_gate_address">Pariser Platz, 10117 Berlin</string>
+    <string name="sights_name_east_side_gallery_address">Mühlenstraße 3-100, 10243 Berlin</string>
+    <string name="sights_name_hauptbahnhof_address">Hauptbahnhof, Europaplatz 1, 10557 Berlin</string>
+    <string name="sights_name_gendarmenmarkt_address">Gendarmenmarkt, 10117 Berlin</string>
+    <string name="sights_name_botanischer_garten_address">Königin-Luise-Straße 6-8, 14195 Berlin</string>
+    <string name="sights_name_olympiastadion_address">Olympischer Platz 3, 14053 Berlin</string>
+    <string name="sights_name_tiergarten_address">Tiergarten, Berlin</string>
+
+    <string name="activities_name_kadewe_address">Tauentzienstraße 21-24, 10789 Berlin</string>
+    <string name="activities_name_ampelmann_shop_address">Kurfürstendamm 20, Berlin, 10719 Berlin</string>
+    <string name="activities_name_classic_remise_address">Wiebestraße 36 – 37, 10553 Berlin</string>
+    <string name="activities_name_markthalle_neun_address">Markthalle Neun</string>
+    <string name="activities_name_berlin_philharmonic_address">Berlin Philharmonic</string>
+    <string name="activities_name_tierpark_address">Am Tierpark 125, 10319 Berlin</string>
+    <string name="activities_name_mall_of_berlin_address">Leipziger Pl. 12, 10117 Berlin</string>
+    <string name="activities_name_sony_center_address">Sony Center, Potsdamer Straße 4, 10785 Berlin</string>
+    <string name="activities_name_aquadom_and_sealife_address">Spandauer Str. 3, 10178 Berlin</string>
+    <string name="activities_name_trabi_tour_address">Zimmerstraße 97, 10117 Berlin</string>
 </resources>

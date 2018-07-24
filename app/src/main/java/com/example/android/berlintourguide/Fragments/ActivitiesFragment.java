@@ -30,25 +30,25 @@ public class ActivitiesFragment extends Fragment {
 
         final ArrayList<Place> places = new ArrayList<Place>();
         places.add(new Place(R.string.activities_name_kadewe, R.string.activities_name_kadewe_explanation,
-                R.drawable.kadewe, mPlaceTelephoneNumber, mPlaceAddress, mPlaceWebSite));
+                R.drawable.kadewe, R.string.activities_name_kadewe_address));
         places.add(new Place(R.string.activities_name_ampelmann_shop, R.string.activities_name_ampelmann_shop_explanation,
-                R.drawable.ampelmannshop, mPlaceTelephoneNumber, mPlaceAddress, mPlaceWebSite));
+                R.drawable.ampelmannshop, R.string.activities_name_ampelmann_shop_address));
         places.add(new Place(R.string.activities_name_classic_remise, R.string.activities_name_classic_remise_explanation,
-                R.drawable.classicremise, mPlaceTelephoneNumber, mPlaceAddress, mPlaceWebSite));
+                R.drawable.classicremise, R.string.activities_name_classic_remise_address));
         places.add(new Place(R.string.activities_name_markthalle_neun, R.string.activities_name_markthalle_neun_explanation,
-                R.drawable.markthalleneun, mPlaceTelephoneNumber, mPlaceAddress, mPlaceWebSite));
+                R.drawable.markthalleneun, R.string.activities_name_markthalle_neun_address));
         places.add(new Place(R.string.activities_name_berlin_philharmonic, R.string.activities_name_berlin_philharmonic_explanation,
-                R.drawable.berlinphilharmonic, mPlaceTelephoneNumber, mPlaceAddress, mPlaceWebSite));
+                R.drawable.berlinphilharmonic, R.string.activities_name_berlin_philharmonic_address ));
         places.add(new Place(R.string.activities_name_tierpark, R.string.activities_name_tierpark_explanation,
-                R.drawable.tierpark, mPlaceTelephoneNumber, mPlaceAddress, mPlaceWebSite));
+                R.drawable.tierpark, R.string.activities_name_tierpark_address ));
         places.add(new Place(R.string.activities_name_mall_of_berlin, R.string.activities_name_mall_of_berlin_explanation,
-                R.drawable.mallofberlin, mPlaceTelephoneNumber, mPlaceAddress, mPlaceWebSite));
+                R.drawable.mallofberlin, R.string.activities_name_mall_of_berlin_address));
         places.add(new Place(R.string.activities_name_sony_center, R.string.activities_name_sony_center_explanation,
-                R.drawable.sonycenter, mPlaceTelephoneNumber, mPlaceAddress, mPlaceWebSite));
+                R.drawable.sonycenter, R.string.activities_name_sony_center_address ));
         places.add(new Place(R.string.activities_name_aquadom_and_sealife, R.string.activities_name_aquadom_and_sealife_explanation,
-                R.drawable.aquadomsealife, mPlaceTelephoneNumber, mPlaceAddress, mPlaceWebSite));
+                R.drawable.aquadomsealife, R.string.activities_name_aquadom_and_sealife_address ));
         places.add(new Place(R.string.activities_name_trabi_tour, R.string.activities_name_trabi_tour_explanation,
-                R.drawable.trabitour, mPlaceTelephoneNumber, mPlaceAddress, mPlaceWebSite));
+                R.drawable.trabitour, R.string.activities_name_trabi_tour_address ));
 
 
         PlaceAdapter adapter = new PlaceAdapter(getActivity(), places, R.color.category_activies);
@@ -65,7 +65,7 @@ public class ActivitiesFragment extends Fragment {
                 Place place = places.get(position);
 
                 Intent intent = new Intent(getContext(), DetailActivity.class);
-                //intent.putExtra(getResources().getString(R.string.parcel_movie), mCurrentMovie);
+                intent.putExtra("place", place);
 
                 startActivity(intent);
             }

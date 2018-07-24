@@ -30,25 +30,25 @@ public class RestaurantsFragment extends Fragment {
 
         final ArrayList<Place> places = new ArrayList<Place>();
         places.add(new Place(R.string.restaurants_name_curry_36, R.string.restaurants_name_curry_36_explanation,
-                R.drawable.curry36, mPlaceTelephoneNumber, mPlaceAddress, mPlaceWebSite));
+                R.drawable.curry36, R.string.restaurants_name_curry_36_address  ));
         places.add(new Place(R.string.restaurants_name_mustafas_gemuse_kebap, R.string.restaurants_name_mustafas_gemuse_kebap_explanation,
-                R.drawable.mustafasgemuesekebab, mPlaceTelephoneNumber, mPlaceAddress, mPlaceWebSite));
+                R.drawable.mustafasgemuesekebab, R.string.restaurants_name_mustafas_gemuse_kebap_address  ));
         places.add(new Place(R.string.restaurants_name_burger_meister, R.string.restaurants_name_burger_meister_explanation,
-                R.drawable.burgermeister, mPlaceTelephoneNumber, mPlaceAddress, mPlaceWebSite));
+                R.drawable.burgermeister, R.string.restaurants_name_burger_meister_address ));
         places.add(new Place(R.string.restaurants_name_vapiano, R.string.restaurants_name_vapiano_explanation,
-                R.drawable.vapiano, mPlaceTelephoneNumber, mPlaceAddress, mPlaceWebSite));
+                R.drawable.vapiano, R.string.restaurants_name_vapiano_address  ));
         places.add(new Place(R.string.restaurants_name_zola, R.string.restaurants_name_zola_explanation,
-                R.drawable.zola, mPlaceTelephoneNumber, mPlaceAddress, mPlaceWebSite));
+                R.drawable.zola, R.string.restaurants_name_zola_address ));
         places.add(new Place(R.string.restaurants_name_hasir, R.string.restaurants_name_hasir_explanation,
-                R.drawable.hasir, mPlaceTelephoneNumber, mPlaceAddress, mPlaceWebSite));
+                R.drawable.hasir, R.string.restaurants_name_hasir_address ));
         places.add(new Place(R.string.restaurants_name_lindner, R.string.restaurants_name_lindner_explanation,
-                R.drawable.lindner, mPlaceTelephoneNumber, mPlaceAddress, mPlaceWebSite));
+                R.drawable.lindner, R.string.restaurants_name_lindner_address));
         places.add(new Place(R.string.restaurants_name_block_house, R.string.restaurants_name_block_house_explanation,
-                R.drawable.blockhouse, mPlaceTelephoneNumber, mPlaceAddress, mPlaceWebSite));
+                R.drawable.blockhouse, R.string.restaurants_name_block_house_address ));
         places.add(new Place(R.string.restaurants_name_hokey_pokey, R.string.restaurants_name_hokey_pokey_explanation,
-                R.drawable.hokeypokey, mPlaceTelephoneNumber, mPlaceAddress, mPlaceWebSite));
+                R.drawable.hokeypokey, R.string.restaurants_name_hokey_pokey_address  ));
         places.add(new Place(R.string.restaurants_name_oysterbar_kadewe, R.string.restaurants_name_oysterbar_kadewe_explanation,
-                R.drawable.oysterbar, mPlaceTelephoneNumber, mPlaceAddress, mPlaceWebSite));
+                R.drawable.oysterbar, R.string.activities_name_kadewe_address  ));
 
         PlaceAdapter adapter = new PlaceAdapter(getActivity(), places, R.color.category_restaurants);
 
@@ -62,9 +62,8 @@ public class RestaurantsFragment extends Fragment {
 
                 Place place = places.get(position);
 
-                //TODO INTENT DETAIL ACTIVITY
                 Intent intent = new Intent(getContext(), DetailActivity.class);
-                //intent.putExtra(getResources().getString(R.string.parcel_movie), mCurrentMovie);
+                intent.putExtra("place", place);
 
                 startActivity(intent);
             }
