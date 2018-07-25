@@ -38,8 +38,21 @@ public class DetailActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 String map = "http://maps.google.com/maps?q=" + addressTextViewText;
-                Intent mapintent = new Intent(Intent.ACTION_VIEW, Uri.parse(map));
-                startActivity(mapintent);
+                Intent mapIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(map));
+                startActivity(mapIntent);
+            }
+        });
+
+        TextView placeTelephoneTextView = findViewById(R.id.place_telephone_text_view);
+        placeTelephoneTextView.setText(currentPlace.getPlaceTelephoneNumber());
+        final String telephoneTextViewText = (String) placeTelephoneTextView.getText();
+
+
+        placeTelephoneTextView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent telephoneIntent = new Intent(Intent.ACTION_DIAL, Uri.fromParts("tel", telephoneTextViewText, null));
+                startActivity(telephoneIntent);
             }
         });
     }

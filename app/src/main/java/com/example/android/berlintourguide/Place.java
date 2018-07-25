@@ -17,11 +17,12 @@ public class Place implements Parcelable {
 
     private int mPlaceWebSite;
 
-    public Place(int placeName, int explanationText, int imageResourceId, int placeAddress){
+    public Place(int placeName, int explanationText, int imageResourceId, int placeAddress, int placeTelephoneNumber){
         mPlaceName = placeName;
         mExplanationText = explanationText;
         mImageResourceId = imageResourceId;
         mPlaceAddress = placeAddress;
+        mPlaceTelephoneNumber = placeTelephoneNumber;
     }
 
     public int getPlaceName(){
@@ -52,7 +53,7 @@ public class Place implements Parcelable {
         mPlaceName = in.readInt();
         mExplanationText = in.readInt();
         mImageResourceId = in.readInt();
-        //mPlaceTelephoneNumber = in.readInt();
+        mPlaceTelephoneNumber = in.readInt();
         mPlaceAddress = in.readInt();
         //mPlaceWebSite = in.readInt();
     }
@@ -67,7 +68,7 @@ public class Place implements Parcelable {
         dest.writeInt(mPlaceName);
         dest.writeInt(mExplanationText);
         dest.writeInt(mImageResourceId);
-        //dest.writeInt(mPlaceTelephoneNumber);
+        dest.writeInt(mPlaceTelephoneNumber);
         dest.writeInt(mPlaceAddress);
         //dest.writeInt(mPlaceWebSite);
     }
