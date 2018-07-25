@@ -30,25 +30,25 @@ public class ActivitiesFragment extends Fragment {
 
         final ArrayList<Place> places = new ArrayList<Place>();
         places.add(new Place(R.string.activities_name_kadewe, R.string.activities_name_kadewe_explanation,
-                R.drawable.kadewe, R.string.activities_name_kadewe_address, R.string.activities_name_kadewe_telephone));
+                R.drawable.kadewe, R.string.activities_name_kadewe_address, R.string.activities_name_kadewe_telephone, R.string.activities_name_kadewe_website));
         places.add(new Place(R.string.activities_name_ampelmann_shop, R.string.activities_name_ampelmann_shop_explanation,
-                R.drawable.ampelmannshop, R.string.activities_name_ampelmann_shop_address, R.string.activities_name_ampelmann_shop_telephone));
+                R.drawable.ampelmannshop, R.string.activities_name_ampelmann_shop_address, R.string.activities_name_ampelmann_shop_telephone, R.string.activities_name_ampelmann_shop_website));
         places.add(new Place(R.string.activities_name_classic_remise, R.string.activities_name_classic_remise_explanation,
-                R.drawable.classicremise, R.string.activities_name_classic_remise_address, R.string.activities_name_classic_remise_telephone));
+                R.drawable.classicremise, R.string.activities_name_classic_remise_address, R.string.activities_name_classic_remise_telephone, R.string.activities_name_classic_remise_website));
         places.add(new Place(R.string.activities_name_markthalle_neun, R.string.activities_name_markthalle_neun_explanation,
-                R.drawable.markthalleneun, R.string.activities_name_markthalle_neun_address, R.string.no_phone_number));
+                R.drawable.markthalleneun, R.string.activities_name_markthalle_neun_address, R.string.no_phone_number, R.string.activities_name_markthalle_neun_website));
         places.add(new Place(R.string.activities_name_berlin_philharmonic, R.string.activities_name_berlin_philharmonic_explanation,
-                R.drawable.berlinphilharmonic, R.string.activities_name_berlin_philharmonic_address, R.string.activities_name_berlin_philharmonic_telephone ));
+                R.drawable.berlinphilharmonic, R.string.activities_name_berlin_philharmonic_address, R.string.activities_name_berlin_philharmonic_telephone, R.string.activities_name_berlin_philharmonic_website ));
         places.add(new Place(R.string.activities_name_tierpark, R.string.activities_name_tierpark_explanation,
-                R.drawable.tierpark, R.string.activities_name_tierpark_address, R.string.activities_name_tierpark_telephone ));
+                R.drawable.tierpark, R.string.activities_name_tierpark_address, R.string.activities_name_tierpark_telephone, R.string.activities_name_tierpark_website ));
         places.add(new Place(R.string.activities_name_mall_of_berlin, R.string.activities_name_mall_of_berlin_explanation,
-                R.drawable.mallofberlin, R.string.activities_name_mall_of_berlin_address, R.string.activities_name_mall_of_berlin_telephone));
+                R.drawable.mallofberlin, R.string.activities_name_mall_of_berlin_address, R.string.activities_name_mall_of_berlin_telephone, R.string.activities_name_mall_of_berlin_website));
         places.add(new Place(R.string.activities_name_sony_center, R.string.activities_name_sony_center_explanation,
-                R.drawable.sonycenter, R.string.activities_name_sony_center_address, R.string.activities_name_sony_center_telephone ));
+                R.drawable.sonycenter, R.string.activities_name_sony_center_address, R.string.activities_name_sony_center_telephone, R.string.no_web_site ));
         places.add(new Place(R.string.activities_name_aquadom_and_sealife, R.string.activities_name_aquadom_and_sealife_explanation,
-                R.drawable.aquadomsealife, R.string.activities_name_aquadom_and_sealife_address, R.string.activities_name_aquadom_and_sealife_telephone ));
+                R.drawable.aquadomsealife, R.string.activities_name_aquadom_and_sealife_address, R.string.activities_name_aquadom_and_sealife_telephone, R.string.activities_name_aquadom_and_sealife_website ));
         places.add(new Place(R.string.activities_name_trabi_tour, R.string.activities_name_trabi_tour_explanation,
-                R.drawable.trabitour, R.string.activities_name_trabi_tour_address, R.string.activities_name_trabi_tour_telephone ));
+                R.drawable.trabitour, R.string.activities_name_trabi_tour_address, R.string.activities_name_trabi_tour_telephone, R.string.activities_name_trabi_tour_website ));
 
 
         PlaceAdapter adapter = new PlaceAdapter(getActivity(), places, R.color.category_activies);

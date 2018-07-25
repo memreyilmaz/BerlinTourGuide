@@ -55,5 +55,18 @@ public class DetailActivity extends AppCompatActivity {
                 startActivity(telephoneIntent);
             }
         });
+
+        TextView placeWebsiteTextView = findViewById(R.id.place_website_text_view);
+        placeWebsiteTextView.setText(currentPlace.getPlaceWebSite());
+        final String webSiteTextViewText = (String) placeWebsiteTextView.getText();
+
+
+        placeWebsiteTextView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(webSiteTextViewText));
+                startActivity(browserIntent);
+            }
+        });
     }
 }

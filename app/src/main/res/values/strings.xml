@@ -1,7 +1,13 @@
 <resources>
     <string name="app_name">Berlin Tour Guide</string>
+    <!-- CATEGORY NAMES -->
 
     <string name="category_museums">Museums and Historical Places</string>
+    <string name="category_restaurants">Restaurants</string>
+    <string name="category_sights">Sights and Attractions</string>
+    <string name="category_activities">Activities and Shopping</string>
+
+    <!-- PLACE NAMES -->
 
     <string name="museum_name_stasi_museum">Stasi Museum</string>
     <string name="museum_name_ddr_museum">DDR Museum</string>
@@ -14,8 +20,6 @@
     <string name="museum_name_marx_engels_forum">Marx - Engels Forum</string>
     <string name="museum_name_checkpoint_charlie">Checkpoint Charlie</string>
 
-    <string name="category_restaurants">Restaurants</string>
-
     <string name="restaurants_name_curry_36">Curry 36</string>
     <string name="restaurants_name_mustafas_gemuse_kebap">Mustafa\'s Gemuse Kebap</string>
     <string name="restaurants_name_burger_meister">Burger Meister</string>
@@ -26,8 +30,6 @@
     <string name="restaurants_name_block_house">Block House</string>
     <string name="restaurants_name_hokey_pokey">Hokey Pokey</string>
     <string name="restaurants_name_oysterbar_kadewe">Oysterbar KaDeWe</string>
-
-    <string name="category_sights">Sights and Attractions</string>
 
     <string name="sights_name_alexanderplatz">Alexanderplatz</string>
     <string name="sights_name_potsdamer_platz">Potsdamer Platz</string>
@@ -40,8 +42,6 @@
     <string name="sights_name_olympiastadion">Olympiastadion</string>
     <string name="sights_name_tiergarten">Tiergarten</string>
 
-    <string name="category_activities">Activities and Shopping</string>
-
     <string name="activities_name_kadewe">KaDeWe</string>
     <string name="activities_name_ampelmann_shop">Ampelmann Shop</string>
     <string name="activities_name_classic_remise">Classic Remise</string>
@@ -53,6 +53,7 @@
     <string name="activities_name_aquadom_and_sealife">Aquadom &amp; SeaLife</string>
     <string name="activities_name_trabi_tour">Trabi Tour</string>
 
+    <!-- PLACE EXPLANATIONS -->
 
     <string name="museum_name_stasi_museum_explanation">Stasi Museum</string>
     <string name="museum_name_ddr_museum_explanation">DDR Museum</string>
@@ -98,6 +99,8 @@
     <string name="activities_name_aquadom_and_sealife_explanation">Aquadom &amp; SeaLife</string>
     <string name="activities_name_trabi_tour_explanation">Trabi Tour</string>
 
+    <!-- PLACE ADRESSES -->
+
     <string name="museum_name_stasi_museum_address">Haus 1, Ruschestraße 103, 10365 Berlin</string>
     <string name="museum_name_ddr_museum_address">Karl-Liebknecht-Str. 1, 10178 Berlin</string>
     <string name="museum_name_museum_island_addresss">Museumsinsel Berlin</string>
@@ -142,6 +145,8 @@
     <string name="activities_name_aquadom_and_sealife_address">Spandauer Str. 3, 10178 Berlin</string>
     <string name="activities_name_trabi_tour_address">Zimmerstraße 97, 10117 Berlin</string>
 
+    <!-- PLACE TELEPHONE NUMBERS -->
+
     <string name="museum_name_stasi_museum_telephone">030 5536854</string>
     <string name="museum_name_ddr_museum_telephone">030 84712373</string>
     <string name="museum_name_topography_of_terrors_telephone">030 2545090</string>
@@ -173,5 +178,44 @@
     <string name="activities_name_trabi_tour_telephone">030 30201030</string>
 
     <string name="no_phone_number"></string>
+
+    <!-- PLACE WEBSITES -->
+
+    <string name="museum_name_stasi_museum_website">https://www.stasimuseum.de/en/enindex.htm</string>
+    <string name="museum_name_ddr_museum_website">https://www.ddr-museum.de/en</string>
+
+    <string name="museum_name_sans_souci_palace_website">https://www.spsg.de/en/palaces-gardens/object/sanssouci-palace/</string>
+    <string name="museum_name_holocaust_memorandum_website">https://www.stiftung-denkmal.de/en/home.html</string>
+    <string name="museum_name_topography_of_terrors_website">http://www.topographie.de/en/</string>
+    <string name="museum_name_reichstag_website">https://www.bundestag.de/en/</string>
+
+
+    <string name="restaurants_name_curry_36_website">https://www.curry36.de/</string>
+    <string name="restaurants_name_mustafas_gemuse_kebap_website">http://www.mustafas.de/</string>
+    <string name="restaurants_name_burger_meister_website">http://burger-meister.de/en/</string>
+    <string name="restaurants_name_vapiano_website">https://de.vapiano.com/en/home/</string>
+    <string name="restaurants_name_zola_website">https://www.facebook.com/zolakreuzberg/</string>
+    <string name="restaurants_name_hasir_website">http://hasir.de/index.php?id=24</string>
+    <string name="restaurants_name_lindner_website">https://www.lindner-esskultur.de/</string>
+
+    <string name="restaurants_name_hokey_pokey_website">http://www.hokey-pokey.de/</string>
+    <string name="restaurants_name_oysterbar_kadewe_website">https://www.kadewe.de/en/</string>
+
+    <string name="sights_name_east_side_gallery_website">http://www.eastsidegallery-berlin.com/data/eng/index-eng.htm</string>
+    <string name="sights_name_hauptbahnhof_website">https://www.bahnhof.de/bahnhof-de/Berlin_Hauptbahnhof-1029794</string>
+    <string name="sights_name_botanischer_garten_website">https://www.bgbm.org/en</string>
+    <string name="sights_name_olympiastadion_website">https://olympiastadion.berlin/en/home/</string>
+
+    <string name="activities_name_kadewe_website">https://www.kadewe.de/en/</string>
+    <string name="activities_name_ampelmann_shop_website">https://www.ampelmann.de/en/</string>
+    <string name="activities_name_classic_remise_website">http://www.remise.de/</string>
+    <string name="activities_name_markthalle_neun_website">https://markthalleneun.de/</string>
+    <string name="activities_name_berlin_philharmonic_website">https://www.berliner-philharmoniker.de/en/</string>
+    <string name="activities_name_tierpark_website">https://www.tierpark-berlin.de/en</string>
+    <string name="activities_name_mall_of_berlin_website">https://www.mallofberlin.de/en</string>
+    <string name="activities_name_aquadom_and_sealife_website">https://www.visitsealife.com/de/en/berlin/</string>
+    <string name="activities_name_trabi_tour_website">http://www.trabi-world.com/</string>
+
+    <string name="no_web_site"></string>
 
 </resources>
