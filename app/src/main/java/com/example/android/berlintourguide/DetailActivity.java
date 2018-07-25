@@ -1,8 +1,10 @@
 package com.example.android.berlintourguide;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -13,7 +15,7 @@ public class DetailActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_detail);
 
-        Place currentPlace;
+        final Place currentPlace;
         Intent intent = getIntent();
         currentPlace = intent.getParcelableExtra("place");
         setTitle(currentPlace.getPlaceName());
@@ -29,7 +31,16 @@ public class DetailActivity extends AppCompatActivity {
 
         TextView placeAddressTextView = findViewById(R.id.place_address_text_view);
         placeAddressTextView.setText(currentPlace.getPlaceAddress());
+        final String addressTextViewText = (String) placeAddressTextView.getText();
 
 
+        placeAddressTextView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String map = "http://maps.google.com/maps?q=" + addressTextViewText;
+                Intent mapintent = new Intent(Intent.ACTION_VIEW, Uri.parse(map));
+                startActivity(mapintent);
+            }
+        });
     }
 }
