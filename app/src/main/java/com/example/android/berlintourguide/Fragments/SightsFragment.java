@@ -30,25 +30,25 @@ public class SightsFragment extends Fragment {
 
         final ArrayList<Place> places = new ArrayList<Place>();
         places.add(new Place(R.string.sights_name_alexanderplatz, R.string.sights_name_alexanderplatz_explanation,
-                R.drawable.alexanderplatz, R.string.sights_name_alexanderplatz_address, R.string.no_phone_number, R.string.no_web_site));
+                R.drawable.alexanderplatz, R.string.sights_name_alexanderplatz_address, R.string.no_phone_number, R.string.no_web_site, R.string.sights_name_alexanderplatz_short_explanation));
         places.add(new Place(R.string.sights_name_potsdamer_platz, R.string.sights_name_potsdamer_platz_explanation,
-                R.drawable.potsdamerplatz, R.string.sights_name_potsdamer_platz_address, R.string.no_phone_number, R.string.no_web_site));
+                R.drawable.potsdamerplatz, R.string.sights_name_potsdamer_platz_address, R.string.no_phone_number, R.string.no_web_site, R.string.sights_name_potsdamer_platz_short_explanation));
         places.add(new Place(R.string.sights_name_victoriapark, R.string.sights_name_victoriapark_explanation,
-                R.drawable.victoriapark, R.string.sights_name_victoriapark_address, R.string.no_phone_number, R.string.no_web_site));
+                R.drawable.victoriapark, R.string.sights_name_victoriapark_address, R.string.no_phone_number, R.string.no_web_site, R.string.sights_name_victoriapark_short_explanation));
         places.add(new Place(R.string.sights_name_brandenburg_gate, R.string.sights_name_brandenburg_gate_explanation,
-                R.drawable.brandenburggate, R.string.sights_name_brandenburg_gate_address, R.string.no_phone_number, R.string.no_web_site));
+                R.drawable.brandenburggate, R.string.sights_name_brandenburg_gate_address, R.string.no_phone_number, R.string.no_web_site, R.string.sights_name_brandenburg_gate_short_explanation));
         places.add(new Place(R.string.sights_name_east_side_gallery, R.string.sights_name_east_side_gallery_explanation,
-                R.drawable.eastsidegallery, R.string.sights_name_east_side_gallery_address, R.string.no_phone_number, R.string.sights_name_east_side_gallery_website));
+                R.drawable.eastsidegallery, R.string.sights_name_east_side_gallery_address, R.string.no_phone_number, R.string.sights_name_east_side_gallery_website, R.string.sights_name_east_side_gallery_short_explanation));
         places.add(new Place(R.string.sights_name_hauptbahnhof, R.string.sights_name_hauptbahnhof_explanation,
-                R.drawable.hauptbahnhof, R.string.sights_name_hauptbahnhof_address, R.string.sights_name_hauptbahnhof_telephone, R.string.sights_name_hauptbahnhof_website));
+                R.drawable.hauptbahnhof, R.string.sights_name_hauptbahnhof_address, R.string.sights_name_hauptbahnhof_telephone, R.string.sights_name_hauptbahnhof_website, R.string.sights_name_hauptbahnhof_short_explanation));
         places.add(new Place(R.string.sights_name_gendarmenmarkt, R.string.sights_name_gendarmenmarkt_explanation,
-                R.drawable.gendarmenmarkt, R.string.sights_name_gendarmenmarkt_address, R.string.no_phone_number, R.string.no_web_site));
+                R.drawable.gendarmenmarkt, R.string.sights_name_gendarmenmarkt_address, R.string.no_phone_number, R.string.no_web_site, R.string.sights_name_gendarmenmarkt_short_explanation));
         places.add(new Place(R.string.sights_name_botanischer_garten, R.string.sights_name_botanischer_garten_explanation,
-                R.drawable.botanischergarten, R.string.sights_name_botanischer_garten_address, R.string.sights_name_botanischer_garten_telephone, R.string.sights_name_botanischer_garten_website));
+                R.drawable.botanischergarten, R.string.sights_name_botanischer_garten_address, R.string.sights_name_botanischer_garten_telephone, R.string.sights_name_botanischer_garten_website, R.string.sights_name_botanischer_garten_short_explanation));
         places.add(new Place(R.string.sights_name_olympiastadion, R.string.sights_name_olympiastadion_explanation,
-                R.drawable.olympiastadion, R.string.sights_name_olympiastadion_address, R.string.sights_name_olympiastadion_telephone, R.string.sights_name_olympiastadion_website));
+                R.drawable.olympiastadion, R.string.sights_name_olympiastadion_address, R.string.sights_name_olympiastadion_telephone, R.string.sights_name_olympiastadion_website, R.string.sights_name_olympiastadion_short_explanation));
         places.add(new Place(R.string.sights_name_tiergarten, R.string.sights_name_tiergarten_explanation,
-                R.drawable.tiergarten, R.string.sights_name_tiergarten_address, R.string.no_phone_number, R.string.no_web_site));
+                R.drawable.tiergarten, R.string.sights_name_tiergarten_address, R.string.no_phone_number, R.string.no_web_site, R.string.sights_name_tiergarten_short_explanation));
 
         PlaceAdapter adapter = new PlaceAdapter(getActivity(), places, R.color.category_sights);
 

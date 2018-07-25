@@ -35,7 +35,7 @@ public class PlaceAdapter extends ArrayAdapter<Place>  {
         placeNameTextView.setText(currentPlace.getPlaceName());
 
         TextView placeExplanationTextView = listItemView.findViewById(R.id.explanation_text_view);
-        placeExplanationTextView.setText(currentPlace.getExplanationText());
+        placeExplanationTextView.setText(currentPlace.getShortExplanationText());
 
         ImageView placeImageView = listItemView.findViewById(R.id.place_image);
         placeImageView.setImageResource(currentPlace.getImageResourceId());

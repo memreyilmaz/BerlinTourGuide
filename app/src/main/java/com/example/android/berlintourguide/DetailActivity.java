@@ -33,7 +33,6 @@ public class DetailActivity extends AppCompatActivity {
         placeAddressTextView.setText(currentPlace.getPlaceAddress());
         final String addressTextViewText = (String) placeAddressTextView.getText();
 
-
         placeAddressTextView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -47,7 +46,6 @@ public class DetailActivity extends AppCompatActivity {
         placeTelephoneTextView.setText(currentPlace.getPlaceTelephoneNumber());
         final String telephoneTextViewText = (String) placeTelephoneTextView.getText();
 
-
         placeTelephoneTextView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -59,7 +57,6 @@ public class DetailActivity extends AppCompatActivity {
         TextView placeWebsiteTextView = findViewById(R.id.place_website_text_view);
         placeWebsiteTextView.setText(currentPlace.getPlaceWebSite());
         final String webSiteTextViewText = (String) placeWebsiteTextView.getText();
-
 
         placeWebsiteTextView.setOnClickListener(new View.OnClickListener() {
             @Override
