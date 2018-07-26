@@ -7,9 +7,10 @@
 
     <ImageView
         android:id="@+id/place_image"
-        android:layout_width="60dp"
-        android:scaleType="fitCenter"
-        android:layout_height="60dp" />
+        android:layout_width="110dp"
+        android:scaleType="fitXY"
+        android:layout_height="110dp"
+        android:layout_margin="4dp"/>
     <LinearLayout
         android:id="@+id/text_container"
         android:layout_width="match_parent"
@@ -19,29 +20,29 @@
         android:layout_alignParentTop="true"
         android:layout_toRightOf="@id/place_image"
         android:orientation="vertical"
-        android:paddingLeft="16dp">
+        android:paddingLeft="16dp"
+        android:paddingBottom="4dp"
+        android:paddingTop="4dp">
         <TextView
             android:layout_width="match_parent"
             tools:text="Place Name"
             android:id="@+id/place_name_text_view"
-            android:layout_height="44dp"
+            android:layout_height="22dp"
             android:layout_weight="1"
             android:gravity="bottom"
-            android:fontFamily="@fonts/berlin.regular"
             android:textAppearance="?android:textAppearanceMedium"
-            android:textColor="@android:color/white"
-            android:textStyle="bold"/>
+            android:textColor="@android:color/white"/>
 
         <TextView
             android:layout_width="match_parent"
             tools:text="Explanation"
             android:id="@+id/explanation_text_view"
             android:layout_below="@id/place_name_text_view"
-            android:layout_height="44dp"
+            android:paddingRight="40dp"
+            android:layout_height="88dp"
             android:layout_weight="1"
-            android:fontFamily="@fonts/berlin.regular"
             android:gravity="top"
-            android:textAppearance="?android:textAppearanceMedium"
+            android:textAppearance="?android:textAppearanceSmall"
             android:textColor="@android:color/white"/>
 
     </LinearLayout>

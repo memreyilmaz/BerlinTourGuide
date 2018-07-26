@@ -43,6 +43,7 @@ public class PlaceAdapter extends ArrayAdapter<Place>  {
         View textContainer = listItemView.findViewById(R.id.text_container);
         int color = ContextCompat.getColor(getContext(), mColorResourceId);
         textContainer.setBackgroundColor(color);
+        placeImageView.setBackgroundColor(color);
 
         return listItemView;
     }

@@ -2,10 +2,10 @@
     <string name="app_name">Berlin Tour Guide</string>
     <!-- CATEGORY NAMES -->
 
-    <string name="category_museums">Museums and Historical Places</string>
-    <string name="category_restaurants">Restaurants</string>
-    <string name="category_sights">Sights and Attractions</string>
-    <string name="category_activities">Activities and Shopping</string>
+    <string name="category_museums">MUSEUMS &amp; HISTORICAL PLACES</string>
+    <string name="category_restaurants">RESTAURANTS</string>
+    <string name="category_sights">SIGHTS &amp; ATTRACTIONS</string>
+    <string name="category_activities">ACTIVITIES &amp; SHOPPING</string>
 
     <!-- PLACE NAMES -->
 
@@ -13,7 +13,7 @@
     <string name="museum_name_ddr_museum">DDR Museum</string>
     <string name="museum_name_museum_island">Museum Island</string>
     <string name="museum_name_sans_souci_palace">Sans Souci Palace</string>
-    <string name="museum_name_holocaust_memorandum">Memorial to the Murdered Jews of Europe</string>
+    <string name="museum_name_holocaust_memorandum">Holocaust Memorandum</string>
     <string name="museum_name_topography_of_terrors">Topography Of Terrors</string>
     <string name="museum_name_berlin_wall">Berlin Wall</string>
     <string name="museum_name_reichstag">Reichstag</string>
@@ -56,64 +56,54 @@
     <!-- PLACE SHORT EXPLANATIONS -->
 
     <string name="museum_name_stasi_museum_short_explanation">Stasi Museum is a research and memorial centre concerning the political system of the former East Germany.</string>
-    <string name="museum_name_ddr_museum_short_explanation">The DDR Museum offers you a hands-on experience of everyday life in a state long gone, the life in the German Democratic Republic.</string>
-    <string name="museum_name_museum_island_short_explanation">Museum Island is a unique ensemble of five museums on Spree Island in the district of Mitte in Berlin. The entire complex is listed by UNESCO as a World Heritage Site.</string>
-    <string name="museum_name_sans_souci_palace_short_explanation">The Stunning rococo Sanssouci Palace and its verdant gardens and terraced vineyards were the summer home of Friedrich the Great.</string>
-    <string name="museum_name_holocaust_memorandum_short_explanation">The Memorial to the Murdered Jews of Europe or Holocaust Memorial near Brandenburg Gate commemorates the up to six million Jewish victims of the Nazi Holocaust.</string>
-    <string name="museum_name_topography_of_terrors_short_explanation">The Topographie des Terrors is a center for the documentation of Nazi crimes, and now attracts hundreds of thousands of visitors every year.</string>
-    <string name="museum_name_berlin_wall_short_explanation">The Berlin Wall has long since disappeared from reunified Berlin. Memories of it, however, are still very much alive: remains and traces of the former border installations are being preserved for posterity, memorials have been built.</string>
-    <string name="museum_name_reichstag_short_explanation">The Reichstag building with the famous glass dome is one of the most frequently visited sights in Berlin. It is seat of the German parliament, the Bundestag.</string>
-    <string name="museum_name_marx_engels_forum_short_explanation">The Marx-Engels-Forum near the Red Town Hall is a real GDR relic. It shows Karl Marx and Friedrich Engels as larger than life figures.</string>
-    <string name="museum_name_checkpoint_charlie_short_explanation">Checkpoint Charlie was the best-known border crossing between East and West Berlin during the Cold War. At the height of the Berlin Crisis in 1961 U.S. and Soviet tanks faced each other here.</string>
+    <string name="museum_name_ddr_museum_short_explanation">DDR Museum offers you a hands-on experience of everyday life in a state long gone, the life in the German Democratic Republic.</string>
+    <string name="museum_name_museum_island_short_explanation">Museum Island is a unique ensemble of five museums on Spree Island in the district of Mitte. Entire complex is listed by UNESCO as a World Heritage Site.</string>
+    <string name="museum_name_sans_souci_palace_short_explanation">Stunning rococo Sanssouci Palace and its verdant gardens and terraced vineyards were the summer home of Friedrich the Great.</string>
+    <string name="museum_name_holocaust_memorandum_short_explanation">Memorial to the Murdered Jews of Europe or Holocaust Memorial commemorates six million Jewish victims of Nazi Holocaust.</string>
+    <string name="museum_name_topography_of_terrors_short_explanation">Topographie des Terrors is a center for the documentation of Nazi crimes, and now attracts hundreds of thousands of visitors every year.</string>
+    <string name="museum_name_berlin_wall_short_explanation">Berlin Wall has long since disappeared from reunified Berlin. Memories of it, are still alive: remains and traces of the former border installations are being preserved for posterity.</string>
+    <string name="museum_name_reichstag_short_explanation">Reichstag building with the famous glass dome is one of the most frequently visited sights in Berlin. It is seat of the German parliament, the Bundestag.</string>
+    <string name="museum_name_marx_engels_forum_short_explanation">Marx-Engels-Forum near the Red Town Hall is a real GDR relic. It shows Karl Marx and Friedrich Engels as larger than life figures.</string>
+    <string name="museum_name_checkpoint_charlie_short_explanation">Checkpoint Charlie was best-known border crossing between East and West Berlin during the Cold War. At the height of Berlin Crisis in 1961 U.S. and Soviet tanks faced each other here.</string>
 
     <string name="restaurants_name_curry_36_short_explanation">Curry 36 on Mehringdamm in Kreuzberg is the epitomy of Berlin Currywurst.</string>
-    <string name="restaurants_name_mustafas_gemuse_kebap_short_explanation">The kebab at Mustafa\'s Veggie Kebab look vastly different than anywhere else for a good reason: they sell exclusively chicken kebab!</string>
-    <string name="restaurants_name_burger_meister_short_explanation">Directly under the subway rails at Schlesisches Tor in Kreuzberg you can find this small but delicious burger joint - the Burgermeister.</string>
-    <string name="restaurants_name_vapiano_short_explanation">The smell of freshly baked pizza, homemade fresh pasta, crisp salads, delicious antipasti and dolci - this and much more is Vapiano.</string>
+    <string name="restaurants_name_mustafas_gemuse_kebap_short_explanation">Kebab at Mustafa\'s Veggie Kebab look vastly different than anywhere else for a good reason: they sell exclusively chicken kebab!</string>
+    <string name="restaurants_name_burger_meister_short_explanation">Directly under the subway rails at Schlesisches Tor in Kreuzberg you can find this small but delicious burger joint the Burgermeister.</string>
+    <string name="restaurants_name_vapiano_short_explanation">The smell of freshly baked pizza, homemade fresh pasta, crisp salads, delicious antipasti and dolci this and much more is Vapiano.</string>
     <string name="restaurants_name_zola_short_explanation">The Paul-Lincke-Ufer in Kreuzberg serves Napolitan pizza at Zola.</string>
-    <string name="restaurants_name_hasir_short_explanation">The Turkish restaurant is known across the city limits and attracts many tourists.
-
-Specialties include grilled lamb in different variations. Even the fresh, grilled fish enjoys many fans who travel to the neighborhood for this purpose.</string>
-    <string name="restaurants_name_lindner_short_explanation">Even in more difficult times for bakeries, Lindner has always maintained the standards of their products. Their shop on Wittenbergplatz is a great place to enjoy their creations sitting in the sun.</string>
-    <string name="restaurants_name_block_house_short_explanation">Block House is a Hamburg-based restaurant chain founded in 1968 that specializes in steaks. The group was built by the Hamburg restaurateur Eugen Block and his sister Marlies Head after the model of American steakhouses.</string>
+    <string name="restaurants_name_hasir_short_explanation">Turkish restaurant is known across the city limits and attracts many tourists.
+    Specialties include grilled lamb in different variations.</string>
+    <string name="restaurants_name_lindner_short_explanation">Lindner always maintained the standards of their products. Their shop on Wittenbergplatz is a great place to enjoy their creations sitting in the sun.</string>
+    <string name="restaurants_name_block_house_short_explanation">Block House is a Hamburg-based restaurant chain founded in 1968 that specializes in steaks.</string>
     <string name="restaurants_name_hokey_pokey_short_explanation">Prenzlauer Berg\'s ice cream shop Hokey Pokey sells splendid ice cream made by a professional patissier.</string>
-    <string name="restaurants_name_oysterbar_kadewe_short_explanation">The gourmet department of Kadewe is Europe\'s biggest food department in any shop with 34.000 products laid out on 7.000 square metres!</string>
+    <string name="restaurants_name_oysterbar_kadewe_short_explanation">Gourmet department of Kadewe is Europe\'s biggest food department in any shop with 34.000 products laid out on 7.000 square metres.</string>
 
-    <string name="sights_name_alexanderplatz_short_explanation">Alexanderplatz is a central square and traffic junction in Berlin\'s Mitte district. One of city\'s the most visited squares, Alexanderplatz is the site of many attractions and sights in Berlin.</string>
+    <string name="sights_name_alexanderplatz_short_explanation">Alexanderplatz is a central square and traffic junction in Berlin\'s Mitte district. One of city\'s the most visited squares and site of many attractions and sights in Berlin.</string>
     <string name="sights_name_potsdamer_platz_short_explanation">Potsdamer Platz has been redeveloped as the new centre of Berlin after the fall of the Wall. A bustling traffic intersection in the 1920s, it became desolate after WW II and part of the border strip.
-
-</string>
-    <string name="sights_name_victoriapark_short_explanation">The Viktoriapark is Berlin\'s highest inner city elevation with the Kreuzberg. On the top of the mountain is the national monument of Schinkel, which is reminiscent of the victory against Napoleon.</string>
+    </string>
+    <string name="sights_name_victoriapark_short_explanation">Viktoriapark is Berlin\'s highest inner city elevation with Kreuzberg. On the top of the mountain is the national monument of Schinkel, which is reminiscent of the victory against Napoleon.</string>
     <string name="sights_name_brandenburg_gate_short_explanation">Brandenburg Gate is Berlin\'s most famous landmark. A symbol of Berlin and German division during the Cold War, it is now a national symbol of peace and unity.
-
 </string>
-    <string name="sights_name_east_side_gallery_short_explanation">The East Side Gallery, one of Berlin\'s most popular sights, is a former section of the Berlin Wall. After the Fall of the Wall, artists have turned it into the largest open-air gallery in the world with over one hundred paintings.
-
-</string>
+    <string name="sights_name_east_side_gallery_short_explanation">East Side Gallery, one of Berlin\'s most popular sights, is a former section of Berlin Wall. After fall of the Wall, artists have turned it into the largest open-air gallery in the world.</string>
     <string name="sights_name_hauptbahnhof_short_explanation">Berlin Hauptbahnhof is the most important passenger transport station in Berlin and at the same time the largest tower station in Europe.</string>
     <string name="sights_name_gendarmenmarkt_short_explanation">Gendarmenmarkt in the Mitte district is arguably Berlin\'s most beautiful square. It is the site of three impressive buildings: The German and the French Cathedral and Schinkel\'s Konzerthaus.
 </string>
-    <string name="sights_name_botanischer_garten_short_explanation">The Botanical Garden in Berlin-Steglitz is one of the largest and most species-rich botanical gardens in the world.</string>
-    <string name="sights_name_olympiastadion_short_explanation">The Olympic Stadium is Berlin\'s largest sports stadium. Built for the 1936 Summer Olympic Games, it now hosts major sports and entertainment events.
+    <string name="sights_name_botanischer_garten_short_explanation">Botanical Garden in Berlin-Steglitz is one of the largest and most species-rich botanical gardens in the world.</string>
+    <string name="sights_name_olympiastadion_short_explanation">Olympic Stadium is Berlin\'s largest sports stadium. Built for the 1936 Summer Olympic Games, it now hosts major sports and entertainment events.
 </string>
-    <string name="sights_name_tiergarten_short_explanation">Popular among locals and visitors alike, the Tiergarten is Berlin\'s largest and most frequented inner-city park. It is ideal for a stroll, outdoor activities or a picnic.
+    <string name="sights_name_tiergarten_short_explanation">Popular among locals and visitors alike, Tiergarten is Berlin\'s largest and most frequented inner-city park. It is ideal for a stroll, outdoor activities or a picnic.
 </string>
 
-    <string name="activities_name_kadewe_short_explanation">The KaDeWe is Berlin\'s largest and most famous department store. Its 60,000 square meters of retail space and gourmet floor attract visitors from all over the world.
-</string>
+    <string name="activities_name_kadewe_short_explanation">KaDeWe is Berlin\'s largest and most famous department store. Its 60,000 square meters of retail space and gourmet floor attract visitors from all over the world.</string>
     <string name="activities_name_ampelmann_shop_short_explanation">Inspired by the beloved East Berlin pedestrian traffic signal, Ampelmann is a well-known brand for a range of products that are perfect as Berlin souvenirs.</string>
-    <string name="activities_name_classic_remise_short_explanation">Classic Remise is a place for motorcycle and automobile with specialization in the range of the classics, Oldtimer and collector vehicles).</string>
+    <string name="activities_name_classic_remise_short_explanation">Classic Remise is a place for motorcycle and automobile with specialization in the range of the classics, Oldtimer and collector vehicles.</string>
     <string name="activities_name_markthalle_neun_short_explanation">Markthalle Neun is a historic market hall, retailers primarily offer fair, organic and locally produced food.</string>
     <string name="activities_name_berlin_philharmonic_short_explanation">The Philharmonie is a showpiece of organic architecture. The very controversial building is today a model for concert halls all over the world.</string>
-    <string name="activities_name_tierpark_short_explanation">One of Berlin\'s most prominent landmarks, the Berlin Zoological Garden is Germany\'s oldest zoo. It is considered to contain the most comprehensive collection of species in the world.
-    </string>
-    <string name="activities_name_mall_of_berlin_short_explanation">Located between Potsdamer Platz and Friedrichstraße, the Mall of Berlin shopping centre at Leipziger Platz offers various shopping facilities on four floors and a vast food court.
-</string>
-    <string name="activities_name_sony_center_short_explanation">The Sony Center on Potsdamer Platz stands out for its unique architecture. The ensemble of seven individual buildings houses cinemas, a museum, restaurants, offices and apartments.</string>
-    <string name="activities_name_aquadom_and_sealife_short_explanation">The AquaDom in Berlin is the largest, freestanding cylindrical aquarium in the world and has been in the CityQuartier DomAquarée in Berlin-Mitte since May 2004.</string>
+    <string name="activities_name_tierpark_short_explanation">One of Berlin\'s most prominent landmarks, Berlin Zoo is Germany\'s oldest zoo. It is considered to contain most comprehensive collection of species in the world.</string>
+    <string name="activities_name_mall_of_berlin_short_explanation">Located between Potsdamer Platz and Friedrichstraße, Mall of Berlin shopping centre at Leipziger Platz offers various shopping facilities on four floors.</string>
+    <string name="activities_name_sony_center_short_explanation">Sony Center on Potsdamer Platz stands out for its unique architecture. Ensemble of seven individual buildings houses cinemas, a museum, restaurants, offices and apartments.</string>
+    <string name="activities_name_aquadom_and_sealife_short_explanation">AquaDom in Berlin is the largest, freestanding cylindrical aquarium in the world and has been in the CityQuartier DomAquarée in Mitte since May 2004.</string>
     <string name="activities_name_trabi_tour_short_explanation">Trabi Tour</string>
-
-    <string name="no_short_explanation"></string>
 
     <!-- PLACE EXPLANATIONS -->
 
@@ -224,8 +214,7 @@ The year 1888, when Berlin decided to create a park on Kreuzberg, was a fateful 
 
 Viktoriapark in memory of the English royal family
 In memory of the empress from the English royal family, which Germany had been granted only for a short time, the green project on Kreuzberg received the name Viktoriapark. A British note is here but in vain. With its wild waterfall in a rocky mountain backdrop, this park has a deeply romantic character and thus reflects the typically German tendency to transfigure nature - a trait that unfolded in the 19th century, especially in the visual arts.</string>
-    <string name="sights_name_brandenburg_gate_explanation">© Antje Kraschinski/BerlinOnline
-The Brandenburg Gate is one of Berlin\'s most important monuments – a landmark and symbol all in one with over two hundred years of history. A former symbol of the divided city, it drew visitors who used to climb an observation platform in order to get a glimpse of the world behind the Iron Curtain, on the other side of the barren \"death-strip\" which separated East from West Berlin, geographically and politically. It was here that on June 12, 1987, Ronald Regan issued his stern command to his cold war adversary admonishing him with the words: \"Mr. Gorbachov – tear down this wall!\". The speech delivered to West Berliners was also audible on the east side of the Gate and echoed President von Weizsacker’s words which translate as: \"The German question is open as long as the Brandenburg Gate is closed.\"
+    <string name="sights_name_brandenburg_gate_explanation">Brandenburg Gate is one of Berlin\'s most important monuments – a landmark and symbol all in one with over two hundred years of history. A former symbol of the divided city, it drew visitors who used to climb an observation platform in order to get a glimpse of the world behind the Iron Curtain, on the other side of the barren \"death-strip\" which separated East from West Berlin, geographically and politically. It was here that on June 12, 1987, Ronald Regan issued his stern command to his cold war adversary admonishing him with the words: \"Mr. Gorbachov – tear down this wall!\". The speech delivered to West Berliners was also audible on the east side of the Gate and echoed President von Weizsacker’s words which translate as: \"The German question is open as long as the Brandenburg Gate is closed.\"
 Brandenburg Gate has turned into a symbol of unity
 When Germany was reunified following the fall of the Berlin in November 1989 Brandenburg Gate quickly reinvented itself into the New Berlin\'s symbol of unity. It was officially opened to traffic on December 22, 1989 and 100,000 people came to celebrate the occasion. Unfortunately this also resulted in severe damage to the monument which needed to be restored and was only officially reopened on October 3, 2002.</string>
     <string name="sights_name_east_side_gallery_explanation">The East Side Gallery is a 1.3 kilometre long painted stretch of the former Berlin Wall along Mühlenstraße in former East Berlin. It is the largest open-air gallery in the world with over one hundred original mural paintings. Galvanised by the extraordinary events which were changing the world, artists from all around the globe rushed to Berlin after the fall of the Wall, leaving a visual testimony of the joy and spirit of liberation which erupted at the time.
@@ -463,4 +452,5 @@ Union Investment Real Estate GmbH realized this project and the biological manag
 
     <string name="no_web_site"></string>
 
+    <string name="web_site">Web Site</string>
 </resources>
