@@ -24,7 +24,5 @@ public class MainActivity extends AppCompatActivity {
         tabLayout.getTabAt(1).setText(getResources().getText(R.string.category_museums));
         tabLayout.getTabAt(2).setText(getResources().getText(R.string.category_activities));
         tabLayout.getTabAt(3).setText(getResources().getText(R.string.category_restaurants));
-
-
     }
 }

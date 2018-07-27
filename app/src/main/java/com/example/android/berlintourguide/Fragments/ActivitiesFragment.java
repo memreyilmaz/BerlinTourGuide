@@ -27,7 +27,6 @@ public class ActivitiesFragment extends Fragment {
                              Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.place_list, container, false);
 
-
         final ArrayList<Place> places = new ArrayList<Place>();
         places.add(new Place(R.string.activities_name_kadewe, R.string.activities_name_kadewe_explanation,
                 R.drawable.kadewe, R.string.activities_name_kadewe_address, R.string.activities_name_kadewe_telephone, R.string.activities_name_kadewe_website, R.string.activities_name_kadewe_short_explanation));
@@ -50,9 +49,7 @@ public class ActivitiesFragment extends Fragment {
         places.add(new Place(R.string.activities_name_trabi_tour, R.string.activities_name_trabi_tour_explanation,
                 R.drawable.trabitour, R.string.activities_name_trabi_tour_address, R.string.activities_name_trabi_tour_telephone, R.string.activities_name_trabi_tour_website, R.string.activities_name_trabi_tour_short_explanation));
 
-
         PlaceAdapter adapter = new PlaceAdapter(getActivity(), places, R.color.category_activies);
-
 
         ListView listView = rootView.findViewById(R.id.place_list);
 
@@ -70,8 +67,6 @@ public class ActivitiesFragment extends Fragment {
                 startActivity(intent);
             }
         });
-
         return rootView;
     }
-
 }

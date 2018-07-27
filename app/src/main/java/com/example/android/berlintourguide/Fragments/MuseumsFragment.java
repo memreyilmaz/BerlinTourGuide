@@ -27,7 +27,6 @@ public class MuseumsFragment extends Fragment {
                              Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.place_list, container, false);
 
-
         final ArrayList<Place> places = new ArrayList<Place>();
         places.add(new Place(R.string.museum_name_stasi_museum, R.string.museum_name_stasi_museum_explanation,
                 R.drawable.stasimuseum, R.string.museum_name_stasi_museum_address,R.string.museum_name_stasi_museum_telephone, R.string.museum_name_stasi_museum_website, R.string.museum_name_stasi_museum_short_explanation  ));
@@ -68,8 +67,6 @@ public class MuseumsFragment extends Fragment {
                 startActivity(intent);
             }
         });
-
         return rootView;
     }
-
 }

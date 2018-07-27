@@ -27,7 +27,6 @@ public class RestaurantsFragment extends Fragment {
                              Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.place_list, container, false);
 
-
         final ArrayList<Place> places = new ArrayList<Place>();
         places.add(new Place(R.string.restaurants_name_curry_36, R.string.restaurants_name_curry_36_explanation,
                 R.drawable.curry36, R.string.restaurants_name_curry_36_address, R.string.restaurants_name_curry_36_telephone, R.string.restaurants_name_curry_36_website, R.string.restaurants_name_curry_36_short_explanation  ));
@@ -68,8 +67,6 @@ public class RestaurantsFragment extends Fragment {
                 startActivity(intent);
             }
         });
-
         return rootView;
     }
-
 }

@@ -27,7 +27,6 @@ public class SightsFragment extends Fragment {
                              Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.place_list, container, false);
 
-
         final ArrayList<Place> places = new ArrayList<Place>();
         places.add(new Place(R.string.sights_name_alexanderplatz, R.string.sights_name_alexanderplatz_explanation,
                 R.drawable.alexanderplatz, R.string.sights_name_alexanderplatz_address, R.string.no_phone_number, R.string.no_web_site, R.string.sights_name_alexanderplatz_short_explanation));
@@ -68,8 +67,6 @@ public class SightsFragment extends Fragment {
                 startActivity(intent);
             }
         });
-
         return rootView;
     }
-
 }
