@@ -18,8 +18,8 @@ public class DetailActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_detail);
 
+        setContentView(R.layout.activity_detail);
 
         AssetManager am = getApplicationContext().getAssets();
 
@@ -28,15 +28,7 @@ public class DetailActivity extends AppCompatActivity {
 
         Intent intent = getIntent();
         currentPlace = intent.getParcelableExtra("place");
-        //ActionBar actionBar=getSupportActionBar();
         setTitle(currentPlace.getPlaceName());
-        //actionBar.setTypeface(typeface);*/
-        //getSupportActionBar().setTitle((Html.fromHtml("<font face=\"CstBerlinWest Original Regular\">" + getString(currentPlace.getPlaceName()) + "</font>")));
-        //ActionBar actionBar = getSupportActionBar();
-        //actionBar.setDisplayShowCustomEnabled(true);
-        //actionBar.setDisplayShowTitleEnabled(false);
-        //actionBar.setTypeface(typeface);
-        //actionBar.setBackgroundDrawable(new ColorDrawable(Color.parseColor("#2B1C27")));
 
         ImageView placeImageView = findViewById(R.id.place_image_big);
         placeImageView.setImageResource(currentPlace.getImageResourceId());
@@ -65,8 +57,6 @@ public class DetailActivity extends AppCompatActivity {
 
         showPhoneNumber();
         showWebSite();
-
-
     }
 
     public void showPhoneNumber() {
@@ -89,8 +79,6 @@ public class DetailActivity extends AppCompatActivity {
         }
     }
 
-
-
     public void showWebSite() {
         if (currentPlace.getPlaceWebSite() != R.string.no_web_site) {
             TextView placeWebsiteTextView = findViewById(R.id.place_website_text_view);
@@ -108,7 +96,6 @@ public class DetailActivity extends AppCompatActivity {
                     startActivity(browserIntent);
                 }
             });
-
         }
     }
 }

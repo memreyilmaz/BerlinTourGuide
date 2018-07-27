@@ -2,7 +2,7 @@
     <string name="app_name">Berlin Tour Guide</string>
     <!-- CATEGORY NAMES -->
 
-    <string name="category_museums">MUSEUMS &amp; HISTORICAL PLACES</string>
+    <string name="category_museums">MUSEUMS &amp;  \t MONUMENTS</string>
     <string name="category_restaurants">RESTAURANTS</string>
     <string name="category_sights">SIGHTS &amp; ATTRACTIONS</string>
     <string name="category_activities">ACTIVITIES &amp; SHOPPING</string>
@@ -103,7 +103,7 @@
     <string name="activities_name_mall_of_berlin_short_explanation">Located between Potsdamer Platz and Friedrichstraße, Mall of Berlin shopping centre at Leipziger Platz offers various shopping facilities on four floors.</string>
     <string name="activities_name_sony_center_short_explanation">Sony Center on Potsdamer Platz stands out for its unique architecture. Ensemble of seven individual buildings houses cinemas, a museum, restaurants, offices and apartments.</string>
     <string name="activities_name_aquadom_and_sealife_short_explanation">AquaDom in Berlin is the largest, freestanding cylindrical aquarium in the world and has been in the CityQuartier DomAquarée in Mitte since May 2004.</string>
-    <string name="activities_name_trabi_tour_short_explanation">Trabi Tour</string>
+    <string name="activities_name_trabi_tour_short_explanation">Trabi Tour is a city tour in a vintage GDR car named "Trabi". These little cars have earned cult status in the meantime and in a convoi of up to six vehicles you get to experience Berlin in a special way.</string>
 
     <!-- PLACE EXPLANATIONS -->
 
@@ -329,7 +329,7 @@ A third \"district\" was built in 2001-03 between Potsdamer Platz and Tiergarten
 The AquaDom was opened after several years of construction on December 2, 2003. The general contractor was a cooperation of the companies ICM and Müller-Altvatter. E. Sander supplied the systems engineering, Reynolds polymer the acrylic glass and the company Hydro Sight parts of the project supervision and the maintenance following the construction phase. The elevator was built by the GBH design Vierkirchen. The cost amounted to 12.8 million euros.
 
 Union Investment Real Estate GmbH realized this project and the biological management lies with the Berlin Society for Large Aquariums (BGG). The aim of the BGG is to transform the AquaDom into an artificial coral reef to create a common habitat for fish and corals in the cylindrical aquarium.</string>
-    <string name="activities_name_trabi_tour_explanation">Trabi Tour</string>
+    <string name="activities_name_trabi_tour_explanation">The information on the sights you pass on your route comes via radio. You get to pick the car in which you do the tour yourself. Each car has the original 4-gear dashboard shift but don\'t worry: you\'ll get a quick rundown of how to change gears with that. After the tour you will receive your own personal \"Trabi driver\'s license\" to show off at home.</string>
 
     <!-- PLACE ADRESSES -->
 

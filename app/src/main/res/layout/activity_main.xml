@@ -10,33 +10,40 @@
 
     <android.support.design.widget.TabLayout
         android:id="@+id/tabs"
+        style="@style/MyCustomTabLayout"
         android:background="@color/colorPrimary"
         android:layout_width="match_parent"
         app:tabTextColor="@android:color/white"
+        app:tabIndicatorColor="@android:color/white"
+        app:tabSelectedTextColor="@android:color/white"
         android:layout_height="wrap_content">
 
         <android.support.design.widget.TabItem
             android:id="@+id/category_sights"
             android:layout_width="0dp"
             android:layout_height="match_parent"
+            android:background="@color/category_sights"
             android:layout_weight="1"/>
 
         <android.support.design.widget.TabItem
             android:id="@+id/category_museums"
             android:layout_width="0dp"
             android:layout_height="match_parent"
+            android:background="@color/category_museums"
             android:layout_weight="1" />
 
         <android.support.design.widget.TabItem
             android:id="@+id/category_activities"
             android:layout_width="0dp"
             android:layout_height="match_parent"
+            android:background="@color/category_activies"
             android:layout_weight="1" />
 
         <android.support.design.widget.TabItem
             android:id="@+id/category_restaurants"
             android:layout_width="0dp"
             android:layout_height="match_parent"
+            android:background="@color/category_restaurants"
             android:layout_weight="1"/>
 
     </android.support.design.widget.TabLayout>
